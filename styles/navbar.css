@@ -1,0 +1,59 @@
+.lista-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.7rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background: transparent;
+    outline: none !important;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.link {
+    transition: all 0.3s ease-in;
+    padding: 10px 25px;
+    border-radius: 20px;
+    border: 1px solid transparent;
+}
+
+.link:hover {
+    border: 1px solid #1e40af;
+}
+
+.link:active {
+    background-color: #1e40af;
+    transition: all 0.1s ease;
+}
+
+.link a {
+    text-decoration: none;
+    font-size: large;
+    color: white;
+}
+
+.logo {
+    align-items: center;
+    display: flex;
+}
+
+.logo h2 {
+    margin: 0 0 0 25px;
+    color: white;
+}
+
+.c-link {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.nav_row {
+    padding: 0;
+    margin: 25px 0 0 0 !important;
+}
