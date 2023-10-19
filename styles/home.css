@@ -1,0 +1,27 @@
+@media only screen and (max-width: 748px) {
+    .info-testo {
+        padding-left:0vh !important;
+        margin-bottom: 2vh;
+    }
+    .info-home{
+        margin-bottom: 30vh;
+        height: 70vh;
+    }
+}
+
+.info-testo {
+    padding-left: 25vh;
+}
+
+.info-img{
+    max-width: 100%;
+}
+
+.info-home{
+    margin: 0;
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}

@@ -1,0 +1,30 @@
+#btn_top{
+    position: fixed;
+    bottom: 10vh;
+    right: 15vh;
+    font-size: 30px;
+    cursor: pointer;
+    padding: 5px 12px;
+    transition: all 0.3s ease-in;
+    border-radius: 100%;
+    border: 1px solid transparent;
+    border: 1px solid #1e40af;
+    z-index: 999;
+}
+
+#btn_top:hover{
+    background-color: #1e40af;
+    transition: all 0.1s ease;
+}
+
+#btn_top:active{
+    padding: 3px 10px;
+    margin: 2px 2px;
+    font-size: 200;
+}
+
+.btn_top_nascosto{
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 1s ease-in-out;
+}
