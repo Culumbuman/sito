@@ -2,14 +2,19 @@
     .home{
         height: calc(100vh - 13vw) !important;
     }
-    .testo{
+    home>.testo{
         padding-left: 7vw !important;
     }
-    .img{
+    home>.img{
         text-align: center;
     }
 }
 
+@media only screen and (max-width: 768px) {
+    .home>.testo{
+        padding-left: 15px !important;
+    }
+}
 
 .home{
     height: calc(100vh - 8vw);
@@ -18,6 +23,6 @@
     align-items: center;
 }
 
-.testo{
+.home>.testo{
     padding-left: 20vw;
 }

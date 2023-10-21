@@ -1,13 +1,13 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const head = document.getElementById("header");
+    const nav = document.getElementById("nav");
     const btn_top = document.getElementById("btn_top");
 
     btn_top.addEventListener("click", () => {
-        head.scrollIntoView({behavior:"smooth"});
+        nav.scrollIntoView({behavior:"smooth"});
     });
     
     window.addEventListener("scroll",() => {
-        var posizione_nav = head.getBoundingClientRect().top;
+        var posizione_nav = nav.getBoundingClientRect().top;
         if(posizione_nav>=0){
             btn_top.classList.add("btn_top_nascosto");
         }else{
