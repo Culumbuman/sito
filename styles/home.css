@@ -1,16 +1,16 @@
-@media only screen and (max-width: 748px) {
+@media only screen and (max-width: 768px) {
     .info-testo {
-        padding-left:0vh !important;
-        margin-bottom: 2vh;
+        padding-left:0vw !important;
+        margin-bottom: 2vw;
     }
     .info-home{
-        margin-bottom: 30vh;
-        height: 70vh;
+        margin-bottom: 30vw;
+        height: 70vw;
     }
 }
 
 .info-testo {
-    padding-left: 25vh;
+    padding-left: 10vw;
 }
 
 .info-img{
@@ -19,7 +19,7 @@
 
 .info-home{
     margin: 0;
-    height: 90vh;
+    height: 50vw;
     width: 100%;
     display: flex;
     align-content: center;

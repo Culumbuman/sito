@@ -37,7 +37,7 @@
 }
 
 .logo h2 {
-    margin-left: 35px;
+    padding-left: 4vw;
     color: white;
 }
 
@@ -49,10 +49,7 @@
 
 .nav_row {
     padding: 0;
-    height: 10vh;
-    width: 100%;
-}
-
-header{
+    height: 8vw;
+    width: 100vw;
     transition: all 0.4s ease;
 }
