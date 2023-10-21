@@ -1,27 +1,23 @@
-@media only screen and (max-width: 768px) {
-    .info-testo {
-        padding-left:0vw !important;
-        margin-bottom: 2vw;
+@media only screen and (max-width: 1200px) {
+    .home{
+        height: calc(100vh - 13vw) !important;
     }
-    .info-home{
-        margin-bottom: 30vw;
-        height: 70vw;
+    .testo{
+        padding-left: 5vw !important;
+    }
+    .img{
+        text-align: center;
     }
 }
 
-.info-testo {
-    padding-left: 10vw;
-}
 
-.info-img{
-    max-width: 100%;
-}
-
-.info-home{
-    margin: 0;
-    height: 50vw;
-    width: 100%;
-    display: flex;
-    align-content: center;
+.home{
+    height: calc(100vh - 8vw);
     justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.testo{
+    padding-left: 20vw;
 }

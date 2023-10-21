@@ -1,3 +1,19 @@
+@media only screen and (max-width: 768px) {
+    .c-link {
+        display: none !important;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .logo {
+        justify-content: center;
+        padding-top: 2vw;
+    }
+    .nav_row{
+        height: 13vw !important;
+    }
+}
+
 .lista-link {
     display: flex;
     align-items: center;
@@ -50,6 +66,5 @@
 .nav_row {
     padding: 0;
     height: 8vw;
-    width: 100vw;
     transition: all 0.4s ease;
 }
